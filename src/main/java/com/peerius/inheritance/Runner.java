@@ -29,5 +29,6 @@ public class Runner {
         System.out.println(mmp instanceof MoveMethod);
 
         System.out.println(mmp.move(point, 2, 3).x);
+        System.out.println(mmn.move(point, 2, 3).x);
 ;    }
 }
