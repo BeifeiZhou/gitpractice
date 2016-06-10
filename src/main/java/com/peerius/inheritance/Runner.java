@@ -27,5 +27,7 @@ public class Runner {
         System.out.println(mmp instanceof PosiMove);
         System.out.println(mmp instanceof NegaMove);
         System.out.println(mmp instanceof MoveMethod);
-    }
+
+        System.out.println(mmp.move(point, 2, 3).x);
+;    }
 }
